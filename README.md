@@ -5,7 +5,7 @@
 ### 🚀 Java Full-Stack Developer | Software Development Engineer
 
 <p>
-  <a href="https://linkedin.com/in/purushottam_kudale">
+  <a href="https://www.linkedin.com/in/purushottam-kudale-0655492a2/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:purushottamkudale0@gmail.com">
@@ -16,7 +16,6 @@
   </a>
 </p>
 
-📍 **Pune, Maharashtra, India**
 
 </div>
 
@@ -282,7 +281,7 @@ I'm always interested in connecting with developers, recruiters, and technology 
 <img src="https://img.shields.io/badge/📧%20Email-purushottamkudale0%40gmail.com-EA4335?style=for-the-badge"/>
 </a>
 
-<a href="https://linkedin.com/in/purushottam_kudale">
+<a href="https://www.linkedin.com/in/purushottam-kudale-0655492a2/">
 <img src="https://img.shields.io/badge/LinkedIn-Purushottam%20Kudale-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
