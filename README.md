@@ -200,51 +200,6 @@ Developed enterprise-style applications using modern Spring architecture and bes
 
 ---
 
-## 📚 What I'm Currently Learning
-
-```text
-Java & Spring Boot     ████████████████████  Advanced
-REST API Development   ███████████████████░  Advanced
-React.js               ██████████████████░░  Advanced
-SQL & Databases        ███████████████████░  Advanced
-Linux                  ███████████████░░░░░  Intermediate
-Docker                 █████████████░░░░░░░  Intermediate
-CI/CD                  ████████████░░░░░░░░  Intermediate
-Cloud & DevOps         ██████████░░░░░░░░░░  Learning
-```
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=purushottamkudale&show_icons=true&theme=default&hide_border=true&count_private=true" height="180"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=purushottamkudale&hide_border=true" height="180"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=purushottamkudale&layout=compact&hide_border=true&langs_count=8" />
-
-</div>
-
----
-
-## 🐍 Contribution Activity
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/purushottamkudale/purushottamkudale/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
-
-</div>
-
----
-
 ## 🎯 Career Goals
 
 ```text
