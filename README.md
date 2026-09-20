@@ -1,122 +1,168 @@
-# 👋 Hi, I'm Purushottam Kudale
-### 🚀 Java Full-Stack Developer | Software Development Engineer
+<!-- Typing Header Widget -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0969DA&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Purushottam+Kudale!%F0%9F%91%8B;Java+Full-Stack+Developer+%26+SDE%F0%9F%9A%80;Building+Scalable+Spring+Boot+%26+React+Apps%F0%9F%92%BB;Open+to+Roles+in+Bengaluru%2C+Pune%2C+Hyderabad+%26+Remote%F0%9F%93%CD" alt="Typing SVG" />
+</a>
 
-Open to roles in **Bengaluru, Pune, Hyderabad, and Remote**.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/purushottam-kudale/)
-[![Email](https://img.shields.io/badge/Email-D93025?style=for-the-badge&logo=gmail&logoColor=white)](mailto:purushottamkudale0@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/purushottamkudale)
-[![Call](https://img.shields.io/badge/Call-1A7F37?style=for-the-badge&logo=phone&logoColor=white)](tel:+919036836362)
-[![Resume](https://img.shields.io/badge/Resume-0969DA?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](Purushottam_Kudale_Resume.pdf)
+<p center>
+  <a href="https://www.linkedin.com/in/purushottam-kudale/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:purushottamkudale0@gmail.com"><img src="https://img.shields.io/badge/Email-D93025?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/purushottamkudale"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="tel:+919036836362"><img src="https://img.shields.io/badge/Call-1A7F37?style=for-the-badge&logo=phone&logoColor=white" /></a>
+  <a href="Purushottam_Kudale_Resume.pdf"><img src="https://img.shields.io/badge/Resume-0969DA?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" /></a>
+</p>
 
 ---
 
 ## 👨‍💻 About Me
 
+<details>
+<summary><b>🔍 Click to expand bio & background details</b></summary>
+<br/>
+
 I'm a **Java Full-Stack Developer** and Computer Science engineering graduate passionate about building scalable, user-focused software applications across the complete development lifecycle.
 
-* 🎓 **B.E. in Information Science & Engineering** — SDM Institute of Technology, Ujire (CGPA 7.46)
-* 💻 Strong foundation in **Java, Spring Boot, REST APIs, React.js, Node.js, and SQL**
-* 🌐 Experience building **full-stack web applications**
-* 📊 Data analytics experience with **Python, Pandas, NumPy, Excel, SQL, and Power BI**
-* 🤖 Interested in **AI-assisted software development and prompt engineering**
-* 🐳 Currently strengthening my **Linux, Docker & DevOps** skills
-* 🔧 Comfortable with **Git, GitHub, Maven, MySQL & MongoDB**
-* 🎯 Open to **Java Full-Stack Developer / SDE opportunities**
+- 🎓 **B.E. in Information Science & Engineering** — SDM Institute of Technology, Ujire (CGPA 7.46)
+- 💻 Strong foundation in **Java, Spring Boot, REST APIs, React.js, Node.js, and SQL**
+- 🌐 Experience building **full-stack web applications**
+- 📊 Data analytics experience with **Python, Pandas, NumPy, Excel, SQL, and Power BI**
+- 🤖 Interested in **AI-assisted software development and prompt engineering**
+- 🐳 Currently strengthening my **Linux, Docker & DevOps** skills
+- 🔧 Comfortable with **Git, GitHub, Maven, MySQL & MongoDB**
+- 🎯 Open to **Java Full-Stack Developer / SDE opportunities**
+</details>
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Interactive Tech Stack
 
-### 💻 Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+<details open>
+<summary><b>💻 Languages & Core</b></summary>
+<br/>
 
-### ⚙️ Backend
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+</details>
 
-### 🎨 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+<details>
+<summary><b>⚙️ Backend Frameworks & DBs</b></summary>
+<br/>
 
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+</details>
 
-### 📊 Data & Analytics
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-4D77CF?style=flat-square&logo=numpy&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+<details>
+<summary><b>🎨 Frontend & UI</b></summary>
+<br/>
 
-### 🚀 Tools & DevOps
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+</details>
 
----
+<details>
+<summary><b>📊 Data Analytics & DevOps Tools</b></summary>
+<br/>
 
-## 💼 Experience
-
-### 🟣 Data Analytics Intern — *UV Technocrafts*
-`Jun 2026 – Sep 2026`
-* Cleaned and prepared raw datasets using **Excel and Pandas**, fixing missing values, duplicates, and inconsistent formats.
-* Performed exploratory data analysis with **Python, Pandas, and NumPy** to find trends, patterns, and outliers.
-* Built charts and visual reports with **Matplotlib and Seaborn** to present findings clearly.
-* Used **Excel** formulas, pivot tables, and summary sheets for reporting and quick analysis.
-
-### 🟢 Java Full-Stack Development Intern — *Pentagon Space*
-`Feb 2025 – Nov 2025`
-* Developed responsive web modules using **Java, Spring Boot, JSP, Servlets, and MySQL**.
-* Built reusable frontend components using **React.js, HTML5, and Tailwind CSS**.
-* Worked with **RESTful APIs and database-driven applications** following Agile practices.
-
-### 🔵 Full Stack Web Development Intern — *Edureka*
-`Oct 2023 – Nov 2023`
-* Developed an **Employee Database Management System** applying SQL normalization, joins, indexing, and relational database concepts.
-* Created responsive interfaces using **HTML5, CSS3, and JavaScript**.
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+</details>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Interactive Project Showcase
 
-| Project | Tech Stack | Highlights | Links |
-| :--- | :--- | :--- | :--- |
-| **💼 Job Portal** | `Java 17` `Spring Boot 3` `Spring Security` `MySQL` `React` | Multi-role platform (Candidates, Recruiters, Admins) with JWT auth, resume upload, and filtered job search. | [View Project](https://github.com/purushottamkudale/Job-Portal-using-SpringBoot) |
-| **🎉 IGNITE '26 Event Site** | `Java 17` `Spring Boot` `Thymeleaf` `MySQL` | College fest site with dynamic database rendering, registration validation, and auto-seeding. | [View Project](https://github.com/purushottamkudale/Campus-Connect-using-SpringBoot) |
-| **📊 E-Commerce Analytics** | `Python` `Pandas` `MySQL` `Power BI` | Exploratory data analysis on 10k records, MoM growth SQL window queries, and Power BI dashboards. | [View Project](https://github.com/purushottamkudale/Ecommerce-Sales-Analytics) |
-| **🎓 Campus Connect** | `MongoDB` `Express.js` `React.js` `Node.js` | MERN stack campus platform with event scheduling, discussion forums, and dynamic dashboards. | [View Project](https://github.com/purushottamkudale/Campus-Connect) |
-| **🏋️ Gym Management** | `PHP` `MySQL` `Bootstrap` | Member & admin management system with payment lifecycle tracking and relational MySQL architecture. | [View Project](https://github.com/purushottamkudale/GYM-management-System) |
+Filter projects on GitHub by clicking the target language tag below:
+
+[**All Repositories**](https://github.com/purushottamkudale?tab=repositories) | 
+[**☕ Java Projects**](https://github.com/purushottamkudale?tab=repositories&q=&type=&language=java) | 
+[**🐍 Python & Data**](https://github.com/purushottamkudale?tab=repositories&q=&type=&language=python) | 
+[**⚛️ MERN / JS**](https://github.com/purushottamkudale?tab=repositories&q=&type=&language=javascript)
+
+<br/>
+
+<details open>
+<summary><b>💼 Job Portal — Spring Boot & React</b></summary>
+<br/>
+
+> **Recruitment platform featuring candidate applications, recruiter workflows, and dynamic admin controls.**
+> - **Tech Stack:** Java 17, Spring Boot 3, Spring Security, MySQL, React 18
+> - **Features:** JWT Auth, role-based security, search filters, resume upload, automated emails.
+> - 🔗 [**View Code Repository**](https://github.com/purushottamkudale/Job-Portal-using-SpringBoot)
+
+</details>
+
+<details>
+<summary><b>🎉 IGNITE '26 — College Fest Portal</b></summary>
+<br/>
+
+> **Event management portal with dynamic data rendering and registration handling.**
+> - **Tech Stack:** Java 17, Spring Boot 3.3, Thymeleaf, MySQL
+> - **Features:** Schedule tracking, registration validation, automated startup seeding.
+> - 🔗 [**View Code Repository**](https://github.com/purushottamkudale/Campus-Connect-using-SpringBoot)
+
+</details>
+
+<details>
+<summary><b>📊 E-Commerce Sales Analytics</b></summary>
+<br/>
+
+> **Exploratory analysis and reporting pipeline across 10,000 order transactions.**
+> - **Tech Stack:** Python, Pandas, MySQL, Power BI
+> - **Features:** Revenue trends, MoM SQL window metrics, interactive dashboards.
+> - 🔗 [**View Code Repository**](https://github.com/purushottamkudale/Ecommerce-Sales-Analytics)
+
+</details>
+
+<details>
+<summary><b>🎓 Campus Connect — MERN Platform</b></summary>
+<br/>
+
+> **Full-stack platform designed to integrate student communication and event management.**
+> - **Tech Stack:** MongoDB, Express.js, React.js, Node.js
+> - **Features:** Interactive forums, event scheduling, dynamic dashboards.
+> - 🔗 [**View Code Repository**](https://github.com/purushottamkudale/Campus-Connect)
+
+</details>
+
+<details>
+<summary><b>🏋️ Gym Management System</b></summary>
+<br/>
+
+> **Member and administration management application with relational database architecture.**
+> - **Tech Stack:** PHP, MySQL, Bootstrap
+> - **Features:** Payment lifecycle management, member portal, input sanitization.
+> - 🔗 [**View Code Repository**](https://github.com/purushottamkudale/GYM-management-System)
+
+</details>
 
 ---
 
-## 🎯 Career Goals
+## 📈 GitHub Metrics & Statistics
 
-* 🚀 Build scalable, production-ready enterprise applications
-* ☕ Become an expert Java & Spring Boot Developer
-* ⚛️ Build modern, high-performance full-stack applications
-* 🐳 Master Docker, CI/CD pipelines, and DevOps principles
-* ☁️ Expand cloud architecture knowledge with AWS
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=purushottamkudale&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=purushottamkudale&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" width="48%" />
+</p>
 
 ---
 
 ## 🤝 Let's Connect
 
-* **Email:** [purushottamkudale0@gmail.com](mailto:purushottamkudale0@gmail.com)
-* **Phone:** [+91 90368 36362](tel:+919036836362)
-* **LinkedIn:** [Purushottam Kudale](https://www.linkedin.com/in/purushottam-kudale/)
-* **GitHub:** [purushottamkudale](https://github.com/purushottamkudale)
+- 📬 **Email:** [purushottamkudale0@gmail.com](mailto:purushottamkudale0@gmail.com)
+- 📱 **Phone:** [+91 90368 36362](tel:+919036836362)
+- 💼 **LinkedIn:** [Purushottam Kudale](https://www.linkedin.com/in/purushottam-kudale/)
+- 💻 **GitHub:** [purushottamkudale](https://github.com/purushottamkudale)
 
 > *"Code. Learn. Build. Repeat."*
