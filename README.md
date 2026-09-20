@@ -98,7 +98,7 @@ code.date { font-family: var(--mono); font-size: 0.85rem; background: var(--bg-s
 .card .feat li { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); }
 .card .badges { margin-top: 1rem; }
 .card .foot { margin-top: auto; padding-top: 1.1rem; display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
-.note { color: var(--muted); font-size: 0.88rem; margin-top: 0.6rem; }
+.note { color: var(--muted); font-size: 0.88rem; margin-top: 0.5rem; }
 
 /* goals box */
 .goals { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 8px; padding: 1.1rem 1.4rem; font-family: var(--mono); font-size: 0.92rem; display: grid; gap: 0.7rem; }
@@ -326,7 +326,7 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
           <span class="badge" style="--c:#005F0F">Thymeleaf</span>
           <span class="badge" style="--c:#4479A1">MySQL</span>
         </div>
-        <div class="foot"><a class="badge lg" style="--c:#181717" href="https://github.com/purushottamkudale/Campus-Connect-using-SpringBoot">View project</a></div>
+        <div class="foot"><a class="badge lg" style="--c:#181717" href="https://github.com/purushottamkudale/Campus-Coneect-using-SpringBoot">View project</a></div>
       </article>
 
       <article class="card" data-tags="data">
@@ -432,7 +432,7 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var root = document.documentElement;
 
-  /* typed intro: runs once, then rests on the availability line */
+  /* typed intro: cycles through phrases and rests on final location line */
   var typed = document.getElementById("typed");
   var lines = [
     "Building REST APIs with Spring Boot",
@@ -456,7 +456,11 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
       }
       ci -= 1;
       typed.textContent = full.slice(0, ci);
-      if (ci === 0) { deleting = false; li += 1; return setTimeout(tick, 250); }
+      if (ci === 0) { 
+        deleting = false; 
+        li += 1; 
+        return setTimeout(tick, 250); 
+      }
       setTimeout(tick, 18);
     };
     typed.textContent = "";
@@ -470,34 +474,46 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
     chip.addEventListener("click", function () {
       var f = chip.getAttribute("data-filter");
       chips.forEach(function (c) { c.setAttribute("aria-pressed", c === chip ? "true" : "false"); });
-      
+      var visibleCount = 0;
       cards.forEach(function (card) {
-        var tags = card.getAttribute("data-tags") ? card.getAttribute("data-tags").split(" ") : [];
+        var tags = (card.getAttribute("data-tags") || "").split(" ");
         var show = f === "all" || tags.indexOf(f) !== -1;
         card.hidden = !show;
         
-        /* Reset wide layout when filtered, keep default wide on 'all' for the first card */
-        if (f === "all") {
-          card.classList.toggle("wide", card.getAttribute("data-tags") === "java" && card === cards[0]);
-        } else {
-          card.classList.remove("wide");
-        }
+        /* Reset wide status initially */
+        card.classList.remove("wide");
+        if (show) visibleCount++;
       });
+      
+      /* Make top project wide if showing all */
+      if (f === "all" && cards.length > 0) {
+        cards[0].classList.add("wide");
+      }
     });
   });
 
   /* copy buttons */
   var live = document.getElementById("live");
   function copyText(text) {
-    if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(text);
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text);
+    }
     return new Promise(function (resolve, reject) {
       var ta = document.createElement("textarea");
-      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
-      document.body.appendChild(ta); ta.select();
-      try { document.execCommand("copy") ? resolve() : reject(); } catch (e) { reject(e); }
+      ta.value = text; 
+      ta.style.position = "fixed"; 
+      ta.style.opacity = "0";
+      document.body.appendChild(ta); 
+      ta.select();
+      try { 
+        document.execCommand("copy") ? resolve() : reject(); 
+      } catch (e) { 
+        reject(e); 
+      }
       document.body.removeChild(ta);
     });
   }
+
   document.querySelectorAll("button.copy").forEach(function (btn) {
     var label = btn.textContent;
     btn.addEventListener("click", function () {
@@ -507,7 +523,10 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
       }, function () {
         btn.textContent = "Press Ctrl+C";
       });
-      setTimeout(function () { btn.textContent = label; if (live) live.textContent = ""; }, 1600);
+      setTimeout(function () { 
+        btn.textContent = label; 
+        if (live) live.textContent = ""; 
+      }, 1600);
     });
   });
 
@@ -528,8 +547,8 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
       try { localStorage.setItem("theme", next); } catch (e) {}
       syncLabel();
     });
-    syncLabel();
   }
+  syncLabel();
 })();
 </script>
 </body>
