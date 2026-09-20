@@ -68,7 +68,7 @@ button.badge { font-family: inherit; cursor: pointer; }
 .typed { margin-top: 0.9rem; color: var(--muted); font-family: var(--mono); font-size: 0.95rem; min-height: 1.6em; }
 .hero .badges { justify-content: center; margin-top: 1.5rem; }
 
-/* sections, styled like rendered README headings */
+/* sections */
 section.sec { padding-top: 2.25rem; }
 h2.sh { font-size: 1.5rem; margin: 0 0 1.1rem; padding-bottom: 0.35rem; border-bottom: 1px solid var(--border); line-height: 1.25; }
 h3.sub { font-size: 1.15rem; margin: 1.6rem 0 0.7rem; line-height: 1.3; }
@@ -98,7 +98,7 @@ code.date { font-family: var(--mono); font-size: 0.85rem; background: var(--bg-s
 .card .feat li { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); }
 .card .badges { margin-top: 1rem; }
 .card .foot { margin-top: auto; padding-top: 1.1rem; display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
-.note { color: var(--muted); font-size: 0.88rem; }
+.note { color: var(--muted); font-size: 0.88rem; margin-top: 0.6rem; }
 
 /* goals box */
 .goals { border: 1px solid var(--border); background: var(--bg-soft); border-radius: 8px; padding: 1.1rem 1.4rem; font-family: var(--mono); font-size: 0.92rem; display: grid; gap: 0.7rem; }
@@ -326,7 +326,7 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
           <span class="badge" style="--c:#005F0F">Thymeleaf</span>
           <span class="badge" style="--c:#4479A1">MySQL</span>
         </div>
-        <div class="foot"><a class="badge lg" style="--c:#181717" href="https://github.com/purushottamkudale/Campus-Coneect-using-SpringBoot">View project</a></div>
+        <div class="foot"><a class="badge lg" style="--c:#181717" href="https://github.com/purushottamkudale/Campus-Connect-using-SpringBoot">View project</a></div>
       </article>
 
       <article class="card" data-tags="data">
@@ -349,7 +349,6 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
         <div class="foot"><a class="badge lg" style="--c:#181717" href="https://github.com/purushottamkudale/Ecommerce-Sales-Analytics">View project</a></div>
       </article>
 
-      <!-- Push the client/ and server/ code to this repo before publishing the site: it is empty right now. -->
       <article class="card" data-tags="mern">
         <h3><span aria-hidden="true">🎓</span> Campus Connect</h3>
         <p class="kind">MERN stack</p>
@@ -441,7 +440,7 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
     "Learning Docker and CI/CD",
     "Open to roles in Bengaluru, Pune, Hyderabad and remote"
   ];
-  if (!reduced) {
+  if (!reduced && typed) {
     var li = 0, ci = 0, deleting = false;
     var tick = function () {
       var full = lines[li];
@@ -471,15 +470,19 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
     chip.addEventListener("click", function () {
       var f = chip.getAttribute("data-filter");
       chips.forEach(function (c) { c.setAttribute("aria-pressed", c === chip ? "true" : "false"); });
-      var first = true;
+      
       cards.forEach(function (card) {
-        var show = f === "all" || card.getAttribute("data-tags").split(" ").indexOf(f) !== -1;
+        var tags = card.getAttribute("data-tags") ? card.getAttribute("data-tags").split(" ") : [];
+        var show = f === "all" || tags.indexOf(f) !== -1;
         card.hidden = !show;
-        /* a lone visible card should not leave a half-empty row */
-        card.classList.toggle("wide", f === "all" ? card.getAttribute("data-tags") === "java" && first : false);
-        if (show) first = false;
+        
+        /* Reset wide layout when filtered, keep default wide on 'all' for the first card */
+        if (f === "all") {
+          card.classList.toggle("wide", card.getAttribute("data-tags") === "java" && card === cards[0]);
+        } else {
+          card.classList.remove("wide");
+        }
       });
-      if (f === "all") cards[0].classList.add("wide");
     });
   });
 
@@ -500,11 +503,11 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
     btn.addEventListener("click", function () {
       copyText(btn.getAttribute("data-copy")).then(function () {
         btn.textContent = "Copied";
-        live.textContent = "Copied to clipboard";
+        if (live) live.textContent = "Copied to clipboard";
       }, function () {
         btn.textContent = "Press Ctrl+C";
       });
-      setTimeout(function () { btn.textContent = label; live.textContent = ""; }, 1600);
+      setTimeout(function () { btn.textContent = label; if (live) live.textContent = ""; }, 1600);
     });
   });
 
@@ -515,14 +518,18 @@ footer em { display: block; margin-bottom: 0.4rem; font-size: 1.05rem; color: va
     if (t) return t;
     return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
   }
-  function syncLabel() { themeBtn.textContent = effectiveTheme() === "dark" ? "Light mode" : "Dark mode"; }
-  themeBtn.addEventListener("click", function () {
-    var next = effectiveTheme() === "dark" ? "light" : "dark";
-    root.setAttribute("data-theme", next);
-    try { localStorage.setItem("theme", next); } catch (e) {}
+  function syncLabel() { 
+    if (themeBtn) themeBtn.textContent = effectiveTheme() === "dark" ? "Light mode" : "Dark mode"; 
+  }
+  if (themeBtn) {
+    themeBtn.addEventListener("click", function () {
+      var next = effectiveTheme() === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+      syncLabel();
+    });
     syncLabel();
-  });
-  syncLabel();
+  }
 })();
 </script>
 </body>
