@@ -1,106 +1,119 @@
-<div align="center">
-
-  <!-- Animated Header Banner -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=0969DA&center=true&vCenter=true&width=700&height=60&lines=Hi%2C+I'm+Purushottam+Kudale!+%F0%9F%91%8B;Java+Full-Stack+Developer;Building+Scalable+Spring+Boot+%26+React+Apps" alt="Typing SVG" />
-  </a>
-
-  <p align="center">
-    🚀 <b>Java Full-Stack Developer</b> | Open to SDE & Software Engineering Roles
-  </p>
-
-  <!-- Social & Contact Badges -->
-  <p align="center">
-    <a href="https://www.linkedin.com/in/purushottam-kudale/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="mailto:purushottamkudale0@gmail.com"><img src="https://img.shields.io/badge/Email-D93025?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-    <a href="Purushottam_Kudale_Resume.pdf"><img src="https://img.shields.io/badge/Resume-0969DA?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" /></a>
-    <a href="https://github.com/purushottamkudale"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  </p>
-
-</div>
+# 👋 Hi, I'm Purushottam Kudale
+### 🚀 Java Full-Stack Developer | Software Development Engineer
+*Open to roles in Bengaluru, Pune, Hyderabad and remote*[cite: 1]
 
 ---
 
-<div align="center">
-
-| 🎓 Education | 💻 Primary Stack | 📍 Preferred Locations |
-| :--- | :--- | :--- |
-| **B.E. ISE** (CGPA 7.46)<br>SDM Institute of Technology | **Java • Spring Boot • React**<br>MySQL • REST APIs • Docker | **Bengaluru • Pune**<br>Hyderabad • Remote |
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/purushottam-kudale/)[cite: 1]
+[![Email](https://img.shields.io/badge/Email-D93025?style=for-the-badge&logo=gmail&logoColor=white)](mailto:purushottamkudale0@gmail.com)[cite: 1]
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/purushottamkudale)[cite: 1]
 
 ---
 
-## ⚡ Interactive Portfolio Hub
+## 👨‍💻 About Me
 
-> **Click on any section header below to expand and explore!**
+I'm a **Java Full-Stack Developer** and engineering graduate who likes building scalable, user-focused software[cite: 1]. I enjoy working across the full development lifecycle, from designing REST APIs and backend services to building responsive React interfaces and managing databases[cite: 1].
 
-<details open>
-<summary><b>🛠️ Tech Stack & Skillset</b></summary>
-<br>
-
-| Domain | Technologies |
-| :--- | :--- |
-| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) |
-| **Backend & APIs** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) |
-| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| **Databases & Tools** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) |
-
-</details>
-
-<details open>
-<summary><b>🚀 Featured Projects</b></summary>
-<br>
-
-<div align="center">
-
-| Project | Tech Stack | Highlights | Link |
-| :--- | :--- | :--- | :---: |
-| **💼 Job Portal** | `Spring Boot 3` `React` `MySQL` `JWT` | Full-stack platform with candidate/recruiter workflows, JWT auth, and email triggers. | [**View Code**](https://github.com/purushottamkudale/Job-Portal-using-SpringBoot) |
-| **🎉 IGNITE Event Portal** | `Spring Boot` `Thymeleaf` `MySQL` | Event registration system with automated schedule tracking & dynamic database seeding. | [**View Code**](https://github.com/purushottamkudale/Campus-Connect-using-SpringBoot) |
-| **📊 E-Commerce Analytics** | `Python` `Pandas` `Power BI` `SQL` | Analyzed 10,000+ sales records with SQL window functions & interactive visual reports. | [**View Code**](https://github.com/purushottamkudale/Ecommerce-Sales-Analytics) |
-| **🎓 Campus Connect** | `MongoDB` `Express` `React` `Node` | MERN community hub with real-time updates, forums, and administrative dashboards. | [**View Code**](https://github.com/purushottamkudale/Campus-Connect) |
-
-</div>
-
-<p align="center">
-  <b>Quick Filters on GitHub:</b> 
-  <a href="https://github.com/purushottamkudale?tab=repositories&q=&type=&language=java">☕ Java</a> • 
-  <a href="https://github.com/purushottamkudale?tab=repositories&q=&type=&language=javascript">⚛️ React/JS</a> • 
-  <a href="https://github.com/purushottamkudale?tab=repositories&q=&type=&language=python">🐍 Python</a>
-</p>
-
-</details>
-
-<details>
-<summary><b>💼 Professional Experience</b></summary>
-<br>
-
-#### 🟣 Data Analytics Intern — **UV Technocrafts**
-> `Jun 2026 – Sep 2026`
-- Cleaned and prepared large datasets using **Excel & Pandas**.
-- Conducted exploratory data analysis (EDA) using **NumPy, Matplotlib, and Seaborn**.
-- Generated analytical reports and presented data insights for business decision-making.
-
-#### 🟢 Java Full-Stack Development Intern — **Pentagon Space**
-> `Feb 2025 – Nov 2025`
-- Built web applications using **Java, Spring Boot, Servlets, and MySQL**.
-- Developed modern frontend modules using **React.js & Tailwind CSS**.
-- Designed and consumed RESTful APIs using Agile workflows.
-
-</details>
+- 🎓 **B.E. in Information Science and Engineering**, SDM Institute of Technology, Ujire (CGPA 7.46)[cite: 1]
+- 💻 Strong foundation in **Java, Spring Boot, REST APIs, React.js, Node.js and SQL**[cite: 1]
+- 🌐 Experience building **full-stack web applications**[cite: 1]
+- 📊 Data analytics with **Python, Pandas, NumPy, Excel, SQL and Power BI**[cite: 1]
+- 🤖 Interested in **AI-assisted software development and prompt engineering**[cite: 1]
+- 🐳 Currently strengthening my **Linux, Docker and DevOps** skills[cite: 1]
+- 🔧 Comfortable with **Git, GitHub, Maven, MySQL and MongoDB**[cite: 1]
+- 🎯 Open to **Java Full-Stack Developer and SDE** opportunities[cite: 1]
+- 📍 Interested in **Bengaluru, Pune, Hyderabad and remote** roles[cite: 1]
 
 ---
 
-## 📈 GitHub Insights & Activity
+## 🛠️ Tech Stack
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=purushottamkudale&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=purushottamkudale&layout=compact&theme=github_dark&hide_border=true" width="48%" alt="Top Languages" />
-</div>
+**Languages:**[cite: 1]  
+`Java` `JavaScript` `Python` `SQL`[cite: 1]
+
+**Backend:**[cite: 1]  
+`Spring Boot` `Spring Core` `Spring Security` `Spring Data JPA` `Hibernate` `Node.js` `Express.js` `JSP` `Servlets`[cite: 1]
+
+**Frontend:**[cite: 1]  
+`React.js` `HTML5` `CSS3` `Tailwind CSS` `Bootstrap` `Thymeleaf`[cite: 1]
+
+**Databases:**[cite: 1]  
+`MySQL` `MongoDB`[cite: 1]
+
+**Data & Analytics:**[cite: 1]  
+`Excel` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Power BI`[cite: 1]
+
+**Tools & DevOps:**[cite: 1]  
+`Git` `GitHub` `Maven` `Docker` `Linux` `GitHub Actions`[cite: 1]
 
 ---
 
-<div align="center">
-  <sub><i>"Code. Learn. Build. Repeat."</i> — Designed by <b>Purushottam Kudale</b></sub>
-</div>
+## 💼 Experience
+
+### 🟣 Data Analytics Intern — *UV Technocrafts*[cite: 1]
+`Jun 2026 – Sep 2026`[cite: 1]
+- Cleaned and prepared raw datasets using **Excel and Pandas**, fixing missing values, duplicates, and inconsistent formats[cite: 1].
+- Performed exploratory data analysis with **Python, Pandas, and NumPy** to find trends, patterns, and outliers[cite: 1].
+- Built charts and visual reports with **Matplotlib and Seaborn** to present findings clearly[cite: 1].
+- Used **Excel** formulas, pivot tables, and summary sheets for reporting and quick analysis[cite: 1].
+
+### 🟢 Java Full-Stack Development Intern — *Pentagon Space*[cite: 1]
+`Feb 2025 – Nov 2025`[cite: 1]
+- Developed responsive web modules using **Java, Spring Boot, JSP, Servlets, and MySQL**[cite: 1].
+- Built reusable frontend components using **React.js, HTML5, and Tailwind CSS**[cite: 1].
+- Worked with **RESTful APIs and database-driven applications**[cite: 1].
+- Used **Git and GitHub** for source control, collaboration, and pull requests following **Agile/Scrum** practices[cite: 1].
+
+### 🔵 Full Stack Web Development Intern — *Edureka*[cite: 1]
+`Oct 2023 – Nov 2023`[cite: 1]
+- Developed an **Employee Database Management System** using SQL, RDBMS, normalization, joins, and indexing[cite: 1].
+- Created responsive interfaces using **HTML5, CSS3, and JavaScript**[cite: 1].
+
+---
+
+## 🚀 Featured Projects
+
+### 💼 [Job Portal](https://github.com/purushottamkudale/Job-Portal-using-SpringBoot)[cite: 1]
+*Spring Boot & React*[cite: 1]
+- A recruitment platform supporting candidates, recruiters, and admins[cite: 1].
+- Features JWT authentication, BCrypt hashing, role-based access, and job search filters[cite: 1].
+- **Tech:** `Java 17` `Spring Boot 3` `Spring Security` `MySQL` `React 18`[cite: 1]
+
+### 🎉 [IGNITE '26 Event Website](https://github.com/purushottamkudale/Campus-Coneect-using-SpringBoot)[cite: 1]
+*Spring Boot & Thymeleaf*[cite: 1]
+- College fest site with schedules, speakers, FAQs, and database-driven dynamic content[cite: 1].
+- **Tech:** `Java 17` `Spring Boot 3.3` `Thymeleaf` `MySQL`[cite: 1]
+
+### 📊 [E-commerce Sales Analytics](https://github.com/purushottamkudale/Ecommerce-Sales-Analytics)[cite: 1]
+*Python, SQL & Power BI*[cite: 1]
+- Analysis of 10,000 order records including revenue trends and category performance[cite: 1].
+- **Tech:** `Python` `Pandas` `MySQL` `Power BI`[cite: 1]
+
+### 🎓 [Campus Connect](https://github.com/purushottamkudale/Campus-Connect-using-MERN-Stack)[cite: 1]
+*MERN Stack*[cite: 1]
+- Campus platform featuring event scheduling, notification systems, discussion forums, and user dashboards[cite: 1].
+- **Tech:** `MongoDB` `Express.js` `React.js` `Node.js`[cite: 1]
+
+### 🏋️ [Gym Management System](https://github.com/purushottamkudale/GYM-management-System)[cite: 1]
+*PHP & MySQL*[cite: 1]
+- Web application with administrative controls, membership tracking, and relational data management[cite: 1].
+- **Tech:** `PHP` `MySQL` `JavaScript` `CSS3`[cite: 1]
+
+---
+
+## 🎯 Career Goals
+
+- 🚀 Build scalable, production-ready applications[cite: 1]
+- ☕ Become an expert Java and Spring Boot developer[cite: 1]
+- ⚛️ Build modern full-stack applications[cite: 1]
+- 🐳 Master Docker, CI/CD, and DevOps[cite: 1]
+- ☁️ Expand my cloud and AWS knowledge[cite: 1]
+
+---
+
+## 🤝 Let's Connect
+
+- **Email:** [purushottamkudale0@gmail.com](mailto:purushottamkudale0@gmail.com)[cite: 1]
+- **Phone:** +91 90368 36362[cite: 1]
+- **LinkedIn:** [Purushottam Kudale](https://www.linkedin.com/in/purushottam-kudale/)[cite: 1]
+- **GitHub:** [purushottamkudale](https://github.com/purushottamkudale)[cite: 1]
